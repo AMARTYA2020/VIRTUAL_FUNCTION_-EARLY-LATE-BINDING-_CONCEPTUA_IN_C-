@@ -53,6 +53,6 @@ int main()
          class A{
      public:
         virtual void display(){
-        cout<<"Derived class B is called"<<endl;
+        cout<<"Derived class B is called"<<endl; /* UPON MENTIONING virtual keyword in begining of function return type now it behaves the way it should be */
         }
          };
